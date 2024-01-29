@@ -12,7 +12,6 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme.js';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
       <BrowserRouter basename="/fs-86-react-node-kurshatsov-andrii">
@@ -24,5 +23,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </BrowserRouter>
     </PersistGate>
   </Provider>
-  // {/* </React.StrictMode> */}
 );
