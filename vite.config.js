@@ -10,5 +10,5 @@ export default defineConfig({
       components: '/src/components',
     },
   },
-  base: '/leader-code-team-power-pulse',
+  base: '/fs-86-react-node-kurshatsov-andrii',
 });
